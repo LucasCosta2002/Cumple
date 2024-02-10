@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nucleus - eWallet </title>
+    <title>Feliz Cumple Lulú ❤️</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet"> 
@@ -13,7 +13,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- swiper -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
+    <link rel="icon" href="img/icon.png" type="image/png">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -21,6 +21,7 @@
     <div class="nav_oculto">
         <div id="confetti-container"></div>
     </div>
+    
     <header class="header">
         <div class="header__contenedor">
             <div class="header__barra">
@@ -28,7 +29,6 @@
                 </div>
 
                 <nav class="navegacion">
-                    <a class="navegacion__link" href="#">¿Que es?</a>
                     <a class="navegacion__link" href="#recuerdos">Recuerdos</a>
                     <a class="navegacion__link" href="#saludos">Saludos</a>
                     <a class="navegacion__link" href="#juegos">Juegos</a>
@@ -199,71 +199,10 @@
         </div>
     </header>
 
-
-    <div>
-<!-- 
-    <svg id="game" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" overflow="visible">
-        <linearGradient id="ArcGradient" >
-                <stop offset="0"  stop-color="#fff" stop-opacity=".2"/>
-                <stop offset="50%" stop-color="#fff" stop-opacity="0"/>
-        </linearGradient>
-        <path id="arc" fill="none" stroke="url(#ArcGradient)" stroke-width="4" d="M100,250c250-400,550-400,800,0"  pointer-events="none"/>
-        <defs>
-            <g id="arrow">
-                <line x2="60" fill="none" stroke="#888" stroke-width="2" />
-                <polygon fill="#888" points="64 0 58 2 56 0 58 -2" />
-                <polygon fill="#88ce02" points="2 -3 -4 -3 -1 0 -4 3 2 3 5 0" />
-            </g>
-        </defs>
-        <g id="target">
-            <path fill="#FFF" d="M924.2,274.2c-21.5,21.5-45.9,19.9-52,3.2c-4.4-12.1,2.4-29.2,14.2-41c11.8-11.8,29-18.6,41-14.2 C944.1,228.3,945.7,252.8,924.2,274.2z" />
-            <path fill="#F4531C" d="M915.8,265.8c-14.1,14.1-30.8,14.6-36,4.1c-4.1-8.3,0.5-21.3,9.7-30.5s22.2-13.8,30.5-9.7 C930.4,235,929.9,251.7,915.8,265.8z" />
-            <path fill="#FFF" d="M908.9,258.9c-8,8-17.9,9.2-21.6,3.5c-3.2-4.9-0.5-13.4,5.6-19.5c6.1-6.1,14.6-8.8,19.5-5.6 C918.1,241,916.9,250.9,908.9,258.9z" />
-            <path fill="#F4531C" d="M903.2,253.2c-2.9,2.9-6.7,3.6-8.3,1.7c-1.5-1.8-0.6-5.4,2-8c2.6-2.6,6.2-3.6,8-2 C906.8,246.5,906.1,250.2,903.2,253.2z" />
-        </g>
-            <g id="bow" fill="none" stroke-linecap="round" vector-effect="non-scaling-stroke" pointer-events="none">
-                <polyline fill="none" stroke="#ddd" stroke-linecap="round" points="88,200 88,250 88,300"/>
-                <path fill="none" stroke="#88ce02" stroke-width="3" stroke-linecap="round" d="M88,300 c0-10.1,12-25.1,12-50s-12-39.9-12-50"/>
-        </g>
-        <g class="arrow-angle"><use x="100" y="250" xlink:href="#arrow"/></g>
-        <clipPath id="mask">
-            <polygon opacity=".5" points="0,0 1500,0 1500,200 970,290 950,240 925,220 875,280 890,295 920,310 0,350" pointer-events="none"/>
-        </clipPath>
-        <g class="arrows" clip-path="url(#mask)"  pointer-events="none">
-        </g>
-        <g class="miss" fill="#aaa" opacity="0" transform="translate(0, 100)">
-            <path d="M358 194L363 118 386 120 400 153 416 121 440 119 446 203 419 212 416 163 401 180 380 160 381 204"/>
-            <path d="M450 120L458 200 475 192 474 121"/>
-            <path d="M537 118L487 118 485 160 515 162 509 177 482 171 482 193 529 199 538 148 501 146 508 133 537 137"/>
-            <path d="M540 202L543 178 570 186 569 168 544 167 546 122 590 116 586 142 561 140 560 152 586 153 586 205"/>
-            <path d="M595,215l5-23l31,0l-5,29L595,215z M627,176l13-70l-41-0l-0,70L627,176z"/>
-        </g>
-        <g class="bullseye" fill="#F4531C" opacity="0">
-            <path d="M322,159l15-21l-27-13l-32,13l15,71l41-14l7-32L322,159z M292,142h20l3,8l-16,8 L292,142z M321,182l-18,9l-4-18l23-2V182z"/>
-            <path d="M340 131L359 125 362 169 381 167 386 123 405 129 392 183 351 186z"/>
-            <path d="M413 119L402 188 450 196 454 175 422 175 438 120z"/>
-            <path d="M432 167L454 169 466 154 451 151 478 115 453 113z"/>
-            <path d="M524 109L492 112 466 148 487 155 491 172 464 167 463 184 502 191 513 143 487 141 496 125 517 126z"/>
-            <path d="M537 114L512 189 558 199 566 174 533 175 539 162 553 164 558 150 543 145 547 134 566 148 575 124z"/>
-            <path d="M577 118L587 158 570 198 587 204 626 118 606 118 598 141 590 112z"/>
-            <path d="M635 122L599 198 643 207 649 188 624 188 630 170 639 178 645 162 637 158 649 143 662 151 670 134z"/>
-            <path d="M649,220l4-21l28,4l-6,25L649,220z M681,191l40-79l-35-8L659,184L681,191z"/>
-        </g>
-        <g class="hit" fill="#ffcc00" opacity="0" transform="translate(180, -80) rotate(12) ">
-            <path d="M383 114L385 195 407 191 406 160 422 155 418 191 436 189 444 112 423 119 422 141 407 146 400 113"/>
-            <path d="M449 185L453 113 477 112 464 186"/>
-            <path d="M486 113L484 130 506 130 481 188 506 187 520 131 540 135 545 119"/>
-            <path d="M526,195l5-20l22,5l-9,16L526,195z M558,164l32-44l-35-9l-19,51L558,164z"/>
-        </g>
-    </svg> -->
-</div>
-    
     <main class="nucleus">
-        <h2 class="nucleus__heading">Felices 22 ❤️</h2>
+        <h2 class="nucleus__heading">❤️ Felices 22 ❤️</h2>
         <div class="nucleus__contenedor">
-
             <div class="nucleus__grid">
-
                 <div class="nucleus__imagen">
                     <img src="img/egreso.jpeg" class="imagen-egreso" alt="">
                 </div>
@@ -276,40 +215,46 @@
                     </div>
 
                     <div class="listado__elemento">
-                        <h2 class="listado__heading">Test</h2>
-                        <p class="listado__texto">Test</p>
+                        <h2 class="listado__heading">Disfruta</h2>
+                        <p class="listado__texto">Sumergite  en la riqueza de lo desconocido, permití que la frescura del cambio acaricie tu alma. Disfruta de estas nuevas experiencias como hojas en blanco que esperan ser escritas con las tintas de la aventura y el aprendizaje, desplegando ante vos un capítulo inexplorado de la vida
+                        </p>
                     </div>
 
                     <div class="listado__elemento">
-                        <h2 class="listado__heading">Administrable</h2>
-                        <p class="listado__texto">Añade o transfiere fondos a tu banco, añade limites o controla tus gastos</p>
+                        <h2 class="listado__heading">Enriquece</h2>
+                        <p class="listado__texto">Así como quiero que disfrutes de estas letras, también que encuentres en tu día a día la magia de nuevos encuentros, la textura de abrazos cálidos y la paleta de colores que pinta la diversidad de la existencia. Que este sitio no solo sea un rincón de palabras y fotos, sino un llamado a vivir plenamente, a explorar lo desconocido con la certeza de que cada página escrita es una oportunidad única para crear recuerdos inolvidables.</p>
                     </div>
-                </div>
 
+                </div>
             </div>
         </div>
     </main>
 
     <section class="seguridad">
         <div class="seguridad__contenedor">
-            <h2 class="seguridad__heading">Nucleus es seguro</h2>
+            <h2 class="seguridad__heading">❤️ Te queremos ❤️</h2>
             
             <div class="seguridad__grid">
                 <div class="listado">
                     <div class="listado__elemento">
-                        <p class="listado__texto">Nucleus es seguro e imposible de clonar</p>
+                        <p class="listado__texto">Te queremos, porque amistad y amor como la que vos nos das hay pocas, esa que contagia alegria y generosidad.</p>
                     </div>
                     <div class="listado__elemento">
-                        <p class="listado__texto">Utiliza tu cara o tu dedo para comfirmar un deposito o registrar una cuenta</p>
+                        <p class="listado__texto">Te admiramos por tu perseverancia con un toque de intensidad para lograr lo que te propones.</p>
                     </div>
                     <div class="listado__elemento">
-                        <p class="listado__texto">Paga en un establecimiento con una tarjeta de credito que se desactiva una vez que has hecho tu compra</p>
+                        <p class="listado__texto">Nos enseñas a no darnos por vencidos y a perseguir aquello que más nos hace feliz</p>
                     </div>
                 </div>
 
                 <div class="seguridad__imagen">
                     <div class="swiper">
                         <div class="swiper-wrapper">
+                            <div class="swiper-slide"></div>
+                            <div class="swiper-slide"></div>
+                            <div class="swiper-slide"></div>
+                            <div class="swiper-slide"></div>
+                            <div class="swiper-slide"></div>
                             <div class="swiper-slide"></div>
                             <div class="swiper-slide"></div>
                             <div class="swiper-slide"></div>
@@ -328,90 +273,104 @@
         <h2 class="comisiones__heading">Recuerdos de tu hermosa vida</h2>
         <div id="gallery">
             <figure>
-                <video id="video" width="640" height="360" autoplay loop muted>
-                    <source src="img/danzo.mp4" type="video/mp4">
-                </video>  
-                <figcaption>Primeras salidas</figcaption>
+                <img src="img/galeria1.jpeg">
+                <figcaption>🌊❤️</figcaption>
             </figure>
             <figure>
                 <img src="img/recuerdo1.jpeg">
-                <figcaption>Buenos Aires. Primer viaje en avión juntos</figcaption>
+                <figcaption>🛫👩‍❤️‍👨</figcaption>
             </figure>
             <figure>
-                <img src="https://images.unsplash.com/photo-1525920980995-f8a382bf42c5?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxODc0ODZ8&ixlib=rb-4.0.3&q=100&w=500" alt="Heavy gray clouds in the sky. " title="Photo by Simeon Muller for Unsplash">
-                <figcaption>Tu Egreso</figcaption>
+                <img src="img/facuamigas.jpeg">
+                <figcaption>📚❤️</figcaption>
             </figure>
             <figure>
-                <img src="https://images.unsplash.com/photo-1509114397022-ed747cca3f65?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxODc1Mjl8&ixlib=rb-4.0.3&q=100&w=500" alt="Deep orange clouds at sunset. " title="Photo by Laura Vinck for Unsplash">
-                <figcaption>5 PM, Autumn</figcaption>
+                <img src="img/amigos.jpg">
+                <figcaption>❤️</figcaption>
             </figure>
    
             <figure>
-                <img src="https://images.unsplash.com/photo-1493130952181-47e36589f64d?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxODc2NTJ8&ixlib=rb-4.0.3&q=100&w=500" alt="Clouds in shades of blue and gold at sunrise. " title="Photo by Łukasz Łada for Unsplash">
-                <figcaption>6:30 AM, Summer</figcaption>
+                <img src="img/familia.jpeg">
+                <figcaption>❤️</figcaption>
             </figure>
             <figure>
-                <img src="img/Miramar.jpeg">
-                <figcaption>Miramar 2018</figcaption>
+                <img src="img/galeria6.jpeg">
+                <figcaption>👩‍❤️‍👨</figcaption>
             </figure>
             <figure>
-                <img src="https://images.unsplash.com/photo-1589517628174-5698bcf47311?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMyOTk4MTd8&ixlib=rb-4.0.3&q=100&w=500" alt="white clouds and blue sky. " title="Photo by Carlos Kenobi for Unsplash">
-                <figcaption>5 PM, Summer</figcaption>
+                <img src="img/festejos.jpeg">
+                <figcaption>🏆</figcaption>
             </figure>
             <figure>
-                <img src="img/dientitos.jpeg">
-                <figcaption>Nuestra hija ❤️</figcaption>
+                <img src="img/galeria8.jpeg">
+                <figcaption>❤️</figcaption>
             </figure>
             <figure>
-                <img src="https://images.unsplash.com/photo-1563846465145-c733e29ee0f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMzMDA5MDV8&ixlib=rb-4.0.3&q=100&w=500" alt="rainbow during daytime. " title="Photo by Yulia Gadalina for Unsplash">
-                <figcaption>Tu Egreso</figcaption>
+                <img src="img/agos.jpeg">
+                <figcaption>🧉❤️</figcaption>
             </figure>
             <figure>
                 <img src="img/tudespe.jpeg">
-                <figcaption>Tu despedida 💔</figcaption>
+                <figcaption>🛫💔</figcaption>
             </figure>
             <figure>
-                <img src="https://images.unsplash.com/photo-1542272201-b1ca555f8505?ixlib=rb-4.0.3&q=100&w=jpg&crop=entropy&cs=srgb&w=500" alt="white sea of clouds. " title="Photo by Szabo Viktor for Unsplash">
-                <figcaption>4 PM, Autumn</figcaption>
+                <img src="img/recuerd0s11.jpeg">
+                <figcaption>🍔</figcaption>
             </figure>
             <figure>
                 <img src="img/tufamilia.jpeg">
-                <figcaption>Nuestra familia ❤️</figcaption>
+                <figcaption>❤️</figcaption>
             </figure>
         </div>
     </section>
 
     <section class="testimoniales" id="saludos">
         <div class="testimoniales__contenedor">
-            <h2 class="testimoniales__heading">Saludos</h2>
+            <h2 class="testimoniales__heading">❤️ Saludos ❤️</h2>
 
             <div class="testimoniales__grid">
                 
                 <div class="testimonial" data-aos="fade-down">
-                    <p class="testimonial__texto">Feliz Cumpleaños mi amor, espero que pases un hermoso día, que lo disfrutes al maximo y que le muestres esa hermosa sonrisa al mundo. Te amo un monton, te espero a la vuelta ❤️</p>
+                    <p class="testimonial__texto">Feliz Cumpleaños mi amor, espero que pases un hermoso día, que lo disfrutes al maximo. Te mereces una vida llena de amor, mundo lleno de felicidad y un universo repleto de estrellas, pero ninguna tan brillante y hermosa como tu sonrisa. Te amo un monton, con Mali te esperamos todos los dias ❤️</p>
                     <p class="testimonial__autor">- Lucas </p>
                 </div>
                 <div class="testimonial" data-aos="fade-down">
-                    <p class="testimonial__texto">Exelente app, muy sencillo de manejar y enviar dinero</p>
-                    <p class="testimonial__autor">- Lucas Costamagna</p>
+                    <p class="testimonial__texto">Cuando ves patos nadar en una laguna creada por la lluvia, tenés una sensación de libertad y alegría... que es la que disrutan los patos al elegir bajar y nadar en esta laguna... hoy elegiste nadar en otra laguna... y esperamos que tengas esa misma sensación de libertad y alegría que vimos en estos patos... felizzz cumple Lu, felices 22 (los 2 patitos). TE QUEREMOS❤️ y tu alegría es también la nuestra!!</p>
+                    <p class="testimonial__autor">- Papi, mami y Jose!</p>
                 </div>
                 <div class="testimonial" data-aos="zoom-in">
-                    <p class="testimonial__texto">Exelente app, muy sencillo de manejar y enviar dinero</p>
-                    <p class="testimonial__autor">- Lucas Costamagna</p>
+                    <p class="testimonial__texto">En tu día deseo que lo disfrutes al máximo, que esta experiencia sea de mucho aprendizaje y crecimiento para vos; así lo merces por la gran persona que sos. Gracias por tu hermosa e incondicional amistad, abrazo inmenso a la distancia ❤️</p>
+                    <p class="testimonial__autor">- Aldi</p>
                 </div>
                 <div class="testimonial" data-aos="zoom-in">
-                    <p class="testimonial__texto">Exelente app, muy sencillo de manejar y enviar dinero</p>
-                    <p class="testimonial__autor">- Lucas Costamagna</p>
+                    <p class="testimonial__texto">Hola lu, te dejo este mensajito para desearte lo mejor para tu cumple y en especial en éste viaje tan lindo que estas viviendo! Te mereces disfrutar cada momento, porque sos una gran amiga, y mi primera facuamiga junto a agos. Te mando un abrazo enorme a la distancia y que sepas que siempre estamos para lo que necesites. ❣️ PD: Espero con ansias las acnedotas qué tengas para contarnos junto a los chicos =)</p>
+                    <p class="testimonial__autor">- Tomi</p>
+                </div>
+                <div class="testimonial" data-aos="fade-in">
+                    <p class="testimonial__texto">Cumpleaños feliz mi Luciii🧚🏻 Gracias por tantos momentitos lindos juntas, tanto apoyo y sobre todo tanto amor. Valoro muchísimo nuestra amistad y agradezco que la vida nos haya puesto en el camino de la otra. Te deseo que pases un hermoso día y seas siempre muy feliz! Acá o en la otra punta del mundo siempre con vos, te amo🫶🏻</p>
+                    <p class="testimonial__autor">- Rena</p>
+                </div>
+        
+                <div class="testimonial" data-aos="fade-in">
+                    <p class="testimonial__texto">Muy felices 22 años amiga!! Que en este nuevo año, sigas cumpliendo tus metas, proyectos anhelos y sueños que te propongas! Que esa perseverancia tan característica de vos, siga siendo ese motor que te propulse para seguir y seguir por más! Te deseo lo mejor siempre!! Te quiero amiga, y te mando un abrazo enorme!!🫶🏽</p>
+                    <p class="testimonial__autor">- Nico</p>
+                </div>
+                <div class="testimonial" data-aos="fade-in">
+                    <p class="testimonial__texto">Mi bella amiga Lu! Muy feliz cumple a la distancia para mi primer facuamiga, aquella que desde el primer día en la facu me contagio con su chispa tan única. Gracias por tan linda amistad, llena de incondinalidad y mucho cariño🫶🏻. Te quiero mucho y deseo para vos lo más lindo, que sin importar donde te encuentres, seas muy feliz ❤️✨</p>
+                    <p class="testimonial__autor">- Agos</p>
+                </div>
+                <div class="testimonial" data-aos="fade-in">
+                    <p class="testimonial__texto">Amiguita de mi vida ❤️ feliz cumple!!! Siempre agradezco por tenerte en mi vida y poder compartir momentos con vos, gracias a la facu que me permitió conocerte y formar esta hermosa amistad🫶🏼 espero que estes siendo muy feliz y cumpliendo tus sueños. Que está experiencia te haga aprender miles de cosas nuevas y espero que la disfrutes al máximo. Acá te esperamos a la vuelta ❣️ te amo mucho mucho y vamos por mas años juntas❣️🥰</p>
+                    <p class="testimonial__autor">- Juli</p>
                 </div>
                 <div class="testimonial" data-aos="fade-up">
-                    <p class="testimonial__texto">Exelente app, muy sencillo de manejar y enviar dinero</p>
-                    <p class="testimonial__autor">- Lucas Costamagna</p>
+                    <p class="testimonial__texto">Muy feliz cumple amiga!!! Gracias por estar y ser siempre tan auténtica y divertida! Espero que sigas disfrutando mucho del viaje. Lo mejor en tu día bro🥂 Un beso grande❤️</p>
+                    <p class="testimonial__autor">- Lucas</p>
                 </div>
                 <div class="testimonial" data-aos="fade-up">
-                    <p class="testimonial__texto">Exelente app, muy sencillo de manejar y enviar dinero</p>
-                    <p class="testimonial__autor">- Lucas Costamagna</p>
+                    <p class="testimonial__texto">Querida Luci... te deseo una muy feliz vuelta más al 🌞 sos una persona muy especial que supo hechar raices en nuestro ♥️... que vivas la vida a lo grande, rodeada de las personas que te quieren (aunque sea a la distancia). Te queremos un montón ❣️</p>
+                    <p class="testimonial__autor">- Doris, Marcos y Javier</p>
                 </div>
-
             </div>
             
         </div>
@@ -429,7 +388,6 @@
                 <div id="invitation">Ganaste una cena conmigo! 🎁</div>
                 <button class="btn" id="playBtn">Jugar</button>
             </div>
-            
             <div class="text-center">
                 <h2 class="text-center">Rompezabezas</h2>
                 <p>Armá el rompecabezas para ver algo bonito ❤️</p>
@@ -453,65 +411,7 @@
                 </g>
             </div>
 
-            <form id="piedra">
-                <input type="radio" id="rock-rock" name="rock-paper-scissors">
-                <input type="radio" id="rock-paper" name="rock-paper-scissors">
-                <input type="radio" id="rock-scissors" name="rock-paper-scissors">
-                <input type="radio" id="paper-rock" name="rock-paper-scissors">
-                <input type="radio" id="paper-paper" name="rock-paper-scissors">
-                <input type="radio" id="paper-scissors" name="rock-paper-scissors">
-                <input type="radio" id="scissors-rock" name="rock-paper-scissors">
-                <input type="radio" id="scissors-paper" name="rock-paper-scissors">
-                <input type="radio" id="scissors-scissors" name="rock-paper-scissors">
-            
-                <div>
-                    <h2>Piedra, Papel o Tijeras</h2>
-                    <div id="hands">
-                        <div class="hand" id="computer-hand">
-                            <div class="fist"></div>
-                            <div class="finger finger-1"></div>
-                            <div class="finger finger-2"></div>
-                            <div class="finger finger-3"></div>
-                            <div class="finger finger-4"></div>
-                            <div class="thumb"></div>
-                            <div class="arm"></div>
-                        </div>
-                
-                        <div class="hand" id="user-hand">
-                            <div class="fist"></div>
-                            <div class="finger finger-1"></div>
-                            <div class="finger finger-2"></div>
-                            <div class="finger finger-3"></div>
-                            <div class="finger finger-4"></div>
-                            <div class="thumb"></div>
-                            <div class="arm"></div>
-                        </div>
-                        
-                        <div id="icons">
-                            <div>
-                                <label for="rock-rock">✊</label>
-                                <label for="paper-rock">✊</label>
-                                <label for="scissors-rock">✊</label>
-                            </div>
-                            <div>
-                                <label for="rock-paper">🖐️</label>
-                                <label for="paper-paper">🖐️</label>
-                                <label for="scissors-paper">🖐️</label>
-                            </div>
-                            <div>
-                                <label for="rock-scissors">✌</label>
-                                <label for="paper-scissors">✌</label>
-                                <label for="scissors-scissors">✌</label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="message">
-                    <button type="reset" value="De nuevo">De nuevo</button>
-                </div>
-            </form>
-
-            <div class="app-container mt-3">
+            <div class="app-container mt-30">
                 <h2 class="cartel">Te gustó?</h2>
                 <button id="yesBtn" class="btn">Sí</button>
                 <button id="noBtn" class="btn">No</button>
@@ -519,23 +419,19 @@
             </div>
         </div>
     </section>
-    <!-- <video id="video" width="640" height="360" autoplay loop muted>
-        <source src="img/nosotros.mp4" type="video/mp4">
-    </video>     -->
-
 
     <footer class="footer">
         <div class="footer__contenedor">
             <div id="contador"><span class="span-contador">para vernos</span></div>
         </div>
         <div class="footer__derechos">
-            <p class="footer__copy">Feliz cumpleaños, te extraño un monton ❤️</p>
+            <p class="footer__copy">Feliz cumpleaños Lulú, este es un regalo de muchas personas que te quieren y que disfrutan cada momento de tu compañia. Te queremos y extrañamos un monton ❤️</p>
         </div>
     </footer>
 
-
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
     <script src="index.js"></script>
 </body>
 </html>
